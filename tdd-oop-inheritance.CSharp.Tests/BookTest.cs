@@ -2,8 +2,9 @@
 using tdd.oop.inheritance.CSharp.Main;
 using tdd.oop.inheritance.CSharp.Main.LibraryItems;
 
-namespace tdd_oop_inheritance.CSharp.Test
+namespace tdd.oop.inheritance.CSharp.Tests
 {
+    [TestFixture]
     public class BookTest
     {
         [Test]

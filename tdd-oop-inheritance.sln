@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tdd-oop-inheritance.CSharp.Main", "tdd-oop-inheritance.CSharp.Main\tdd-oop-inheritance.CSharp.Main.csproj", "{B747E7EA-396B-4AE6-B931-6C2056543157}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-tdd-oop-inheritance.testing", "csharp-tdd-oop-inheritance.testing\csharp-tdd-oop-inheritance.testing.csproj", "{45A5DF21-2A99-4049-BF67-9ADD9A651709}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tdd-oop-inheritance.CSharp.Tests", "tdd-oop-inheritance.CSharp.Tests\tdd-oop-inheritance.CSharp.Tests.csproj", "{0B9BE78D-8C0E-4461-880D-1D8625A2B57B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{B747E7EA-396B-4AE6-B931-6C2056543157}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B747E7EA-396B-4AE6-B931-6C2056543157}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B747E7EA-396B-4AE6-B931-6C2056543157}.Release|Any CPU.Build.0 = Release|Any CPU
-		{45A5DF21-2A99-4049-BF67-9ADD9A651709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{45A5DF21-2A99-4049-BF67-9ADD9A651709}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{45A5DF21-2A99-4049-BF67-9ADD9A651709}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{45A5DF21-2A99-4049-BF67-9ADD9A651709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B9BE78D-8C0E-4461-880D-1D8625A2B57B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9BE78D-8C0E-4461-880D-1D8625A2B57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9BE78D-8C0E-4461-880D-1D8625A2B57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9BE78D-8C0E-4461-880D-1D8625A2B57B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
