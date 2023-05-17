@@ -1,40 +1,19 @@
 ﻿
+using tdd.oop.inheritance.CSharp.Main.LibraryItems.Base;
+using tdd.oop.inheritance.CSharp.Main.LibraryItems.Interfaces;
 
 namespace tdd.oop.inheritance.CSharp.Main.LibraryItems
 {
-    public class Book : LibraryItem
+    public class Book : LibraryItem, IAuthorable
     {
-        
-        public Book(string title) : base(title)
+        IAuthor _author;
+        public Book(string title, IAuthor author) : base(title)
         {
-            
+            _author = author;
+            this.IsCheckoutable = true;
         }
 
-
-
-        public string checkIn()
-        {
-            if (!isOnLoan())
-            {
-                return "item is not currently on loan";
-            }
-
-            onLoan = false;
-
-            return "item has been checked in";
-        }
-
-        public string checkOut()
-        {
-            if (isOnLoan())
-            {
-                return "item is currently on loan";
-            }
-
-            onLoan = true;
-
-            return "item has been checked out";
-        }
+        public IAuthor Author { get { return _author; }set { _author = value; } }
 
     }
 }

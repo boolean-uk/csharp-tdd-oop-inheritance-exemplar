@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using tdd.oop.inheritance.CSharp.Main.LibraryItems.Base;
 
 namespace tdd.oop.inheritance.CSharp.Main.LibraryItems
 {
@@ -11,7 +8,7 @@ namespace tdd.oop.inheritance.CSharp.Main.LibraryItems
       
         public Newspaper(string title) : base(title)
         {
-            
+            this.IsCheckoutable = false;
         }
       
 
@@ -20,9 +17,9 @@ namespace tdd.oop.inheritance.CSharp.Main.LibraryItems
             return "newspapers are not available for loan";
         }
 
-        public string checkOut()
+        public override string checkOut()
         {
             return "newspapers are not available for loan";
-        }
+        }        
     }
 }
